@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Mindo brings 18 Goti, Ludo, Chess, and Saanp Seedhi together in one offline Android app.">
+  <meta name="theme-color" content="#101830">
+  <title>Mindo: Indian Strategy Games</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #101830;
+      --panel: #19243f;
+      --text: #fff7e6;
+      --muted: #c5cbe0;
+      --gold: #f1c46f;
+      --border: #39445f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 1rem/1.6 system-ui, sans-serif;
+    }
+
+    a { color: var(--gold); }
+    a:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+
+    .wrap {
+      width: min(100% - 2rem, 64rem);
+      margin-inline: auto;
+    }
+
+    header, footer { padding-block: 1.1rem; }
+    header { border-bottom: 1px solid var(--border); }
+    footer { border-top: 1px solid var(--border); }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+    .brand { color: var(--gold); font: bold 1.7rem Georgia, serif; }
+
+    .hero {
+      padding-block: clamp(3rem, 9vw, 6rem);
+      background: radial-gradient(ellipse at top right, #293762, transparent 65%);
+    }
+
+    h1, h2, h3 { line-height: 1.15; }
+    h1 { margin: 0; font: bold clamp(2.5rem, 7vw, 4.75rem)/1.05 Georgia, serif; }
+    h2 { margin: 0 0 1rem; font-size: 1.65rem; }
+    h3 { margin: 0 0 .5rem; color: var(--gold); }
+    p { margin: .5rem 0 0; color: var(--muted); }
+    .hero p { max-width: 38rem; margin-top: 1rem; font-size: 1.1rem; }
+
+    main > section:not(.hero) { padding-block: 2rem; }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      background: var(--panel);
+    }
+
+    .upcoming {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .upcoming li {
+      padding: .35rem .75rem;
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      color: var(--muted);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: .55rem 1rem;
+      border-radius: .6rem;
+      background: var(--gold);
+      color: var(--background);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    footer p { font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap row">
+      <a class="brand" href="./" aria-label="Mindo home">Mindo</a>
+      <nav aria-label="Main navigation">
+        <a href="#games">Games</a>
+        <a href="#support">Support</a>
+        <a href="./privacy-policy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <h1 id="page-title">Mindo: Indian Strategy Games</h1>
+        <p>
+          Play traditional Indian board games and chess offline.
+          Challenge the computer or share your device with a friend in
+          Pass &amp; Play mode.
+        </p>
+        <a class="button" href="#games">Explore Games</a>
+      </div>
+    </section>
+
+    <section class="wrap" id="games" aria-labelledby="games-title">
+      <h2 id="games-title">Available Games</h2>
+      <div class="games">
+        <article class="card">
+          <h3>Mindo: 18 Goti</h3>
+          <p>Plan your moves and capture opposing pieces in this traditional Indian strategy game.</p>
+        </article>
+
+        <article class="card">
+          <h3>Mindo Ludo</h3>
+          <p>Roll the dice and race your pieces home.</p>
+        </article>
+
+        <article class="card">
+          <h3>Mindo Chess</h3>
+          <p>Play against the computer or a friend, or practise with interactive lessons.</p>
+        </article>
+
+        <article class="card">
+          <h3>Mindo Saanp Seedhi</h3>
+          <p>Climb ladders, watch out for snakes, and race to the finish.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" aria-labelledby="upcoming-title">
+      <h2 id="upcoming-title">Coming Soon</h2>
+      <ul class="upcoming">
+        <li>Carrom</li>
+        <li>Anthi Chanda</li>
+        <li>Chauka Bara</li>
+        <li>Three Men's Morris</li>
+        <li>Nine Men's Morris</li>
+      </ul>
+    </section>
+
+    <section class="wrap" id="support" aria-labelledby="support-title">
+      <h2 id="support-title">Contact Support</h2>
+      <p>
+        Need help or found a bug? Include the game name, your Mindo version,
+        your Android version, and the steps to reproduce the issue.
+      </p>
+      <p>
+        Email <a href="mailto:contact.saraagames@gmail.com?subject=Mindo%20Support">
+          contact.saraagames@gmail.com</a>.
+      </p>
+    </section>
+
+    <section class="wrap" id="terms" aria-labelledby="terms-title">
+      <h2 id="terms-title">Terms of Use</h2>
+      <p>
+        Mindo is provided for personal entertainment. In-game coins and XP
+        have no cash value. Clearing app data can remove saved matches and
+        progress. Games marked Coming Soon are previews.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap row">
+      <div>
+        <strong>Mindo · Saraa Games</strong>
+        <p>Developed by Abhinav Shukla</p>
+        <p>Contributors Arush Shukla and Anuj Shukla</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="./privacy-policy.html">Privacy Policy</a>
+        <a href="#terms">Terms of Use</a>
+        <a href="#support">Contact Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
