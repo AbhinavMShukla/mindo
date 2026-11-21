@@ -1,20 +1,20 @@
 {
   "messages": [
     {
-      "en": "Welcome to Mindo! Play Ludo, Chess, 18 Goti and Saanp Seedhi offline.",
-      "hi": "Mindo में स्वागत है! लूडो, शतरंज, 18 गोटी और साँप-सीढ़ी ऑफ़लाइन खेलें।"
+      "en": "♞ Mindo Chess • Spot the opening. One clever move can turn the game around.",
+      "hi": "♞ Mindo शतरंज • मौका पहचानिए। एक सही चाल पूरी बाज़ी पलट सकती है।"
     },
     {
-      "en": "Visit the Games tab to see the board games coming next.",
-      "hi": "आने वाले बोर्ड गेम देखने के लिए गेम टैब खोलें।"
+      "en": "⚔️ Mindo 18 Goti • Block their path. Set a trap. Make every move count.",
+      "hi": "⚔️ Mindo 18 गोटी • रास्ता रोकिए, जाल बिछाइए। हर चाल मायने रखती है।"
     },
     {
-      "en": "m2 Visit the Games tab to see the board games coming next.",
-      "hi": " m2 आने वाले बोर्ड गेम देखने के लिए गेम टैब खोलें।"
+      "en": "🎲 Mindo Ludo • Roll the dice! Who’ll get all four tokens home first?",
+      "hi": "🎲 Mindo लूडो • पासा घुमाइए! कौन पहले अपनी चारों गोटियाँ घर पहुँचाएगा?"
     },
     {
-      "en": "m3 Visit the Games tab to see the board games coming next.",
-      "hi": "m3 आने वाले बोर्ड गेम देखने के लिए गेम टैब खोलें।"
+      "en": "🐍 Mindo Saanp Seedhi • Up a ladder or down a snake? Roll to find out!",
+      "hi": "🐍 Mindo साँप-सीढ़ी • सीढ़ी से ऊपर या साँप से नीचे? पासा घुमाकर देखिए!"
     }
   ]
 }
