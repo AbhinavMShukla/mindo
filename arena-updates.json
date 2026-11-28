@@ -1,8 +1,8 @@
 {
   "messages": [
   {
-      "en": "👋 {name}, what will you play today?",
-      "hi": "👋 {name}, आज कौन-सा खेल खेलेंगे?"
+      "en": "👋 Hello, Khalil! what will you play today?",
+      "hi": "👋 अस्सलाम वालेइकुम खलील भाई, आज कौन-सा खेल खेलेंगे?"
     }, 
     {
       "en": "♞ Mindo Chess • Spot the opening. One clever move can turn the game around.",
