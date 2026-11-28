@@ -1,6 +1,10 @@
 {
   "messages": [
-    {
+     {
+      "en": "👋 {name}, what will you play today?",
+      "hi": "👋 {name}, आज कौन-सा खेल खेलेंगे?"
+    }, 
+   {
       "en": "♞ Mindo Chess • Spot the opening. One clever move can turn the game around.",
       "hi": "♞ Mindo शतरंज • मौका पहचानिए। एक सही चाल पूरी बाज़ी पलट सकती है।"
     },
@@ -15,10 +19,6 @@
     {
       "en": "🐍 Mindo Saanp Seedhi • Up a ladder or down a snake? Roll to find out!",
       "hi": "🐍 Mindo साँप-सीढ़ी • सीढ़ी से ऊपर या साँप से नीचे? पासा घुमाकर देखिए!"
-    },
-    {
-      "en": "Hello Khalil, Kya kar rahe ho"
-      "hi": "अस्सलाम वॉलेकुम, खलील भाई, क्या हाल चाल है"
     }
   ]
 }
